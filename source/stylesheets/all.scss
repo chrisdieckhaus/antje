@@ -1,12 +1,15 @@
 @charset "utf-8";
 
+$background-color: #244920;
+$font-color: #f5f5f5;
+
 body {
-  background: #d4d4d4 url("../images/background.png");
+  background: $background-color;
   text-align: center;
   font-family: sans-serif; }
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   margin: 0; }
 
 .doc {
@@ -24,8 +27,11 @@ h1 {
 .doc a:hover {
   color: #666; }
 
-.index h1{
-  font-family: 'Euphoria Script', cursive;
+.index {
+  h1{
+    font-family: 'Euphoria Script', cursive;
+    color: $font-color;
+  }
 }
     
 
