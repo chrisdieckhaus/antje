@@ -7,13 +7,21 @@ body {
 
 /* line 14, /home/chris/Code/antje/source/stylesheets/all.scss */
 h1 {
-  margin: 0; }
-
-/* line 17, /home/chris/Code/antje/source/stylesheets/all.scss */
-p {
-  font-family: 'Old Standard TT', serif; }
+  font-family: 'Euphoria Script', cursive;
+  color: #f5f5f5;
+  font-size: 90px; }
 
 /* line 20, /home/chris/Code/antje/source/stylesheets/all.scss */
+h1 a:hover {
+  border-bottom: none; }
+
+/* line 24, /home/chris/Code/antje/source/stylesheets/all.scss */
+p {
+  font-family: 'Old Standard TT', serif;
+  color: #f5f5f5;
+  font-size: 20px; }
+
+/* line 29, /home/chris/Code/antje/source/stylesheets/all.scss */
 ul {
   font-family: 'Old Standard TT', serif;
   color: #f5f5f5;
@@ -26,18 +34,23 @@ ul {
   padding: 50px 0 20px 0;
   border-bottom: dotted #f5f5f5 1pt; }
 
-/* line 32, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 41, /home/chris/Code/antje/source/stylesheets/all.scss */
 li {
   display: inline;
   list-style-type: none;
   padding: 0 20px 0 20px; }
 
-/* line 38, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 47, /home/chris/Code/antje/source/stylesheets/all.scss */
+a:hover {
+  color: #f5f5f5;
+  border-bottom: dotted 1pt #f5f5f5; }
+
+/* line 52, /home/chris/Code/antje/source/stylesheets/all.scss */
 .doc {
   font-size: 14px;
   margin: 0; }
 
-/* line 41, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 55, /home/chris/Code/antje/source/stylesheets/all.scss */
 .doc:before,
 .doc:after {
   opacity: .2;
@@ -46,25 +59,27 @@ li {
   position: relative;
   content: "•"; }
 
-/* line 48, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 62, /home/chris/Code/antje/source/stylesheets/all.scss */
 .doc a {
-  color: rgba(0, 0, 0, 0.3); }
+  color: #f5f5f5; }
 
-/* line 50, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 64, /home/chris/Code/antje/source/stylesheets/all.scss */
 .doc a:hover {
-  color: #666; }
+  color: #f5f5f5; }
 
-/* line 54, /home/chris/Code/antje/source/stylesheets/all.scss */
-.index h1 {
-  font-family: 'Euphoria Script', cursive;
-  color: #f5f5f5;
-  font-size: 90px; }
-/* line 60, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 69, /home/chris/Code/antje/source/stylesheets/all.scss */
 .index p {
   color: #f5f5f5;
   font-size: 20px; }
+/* line 74, /home/chris/Code/antje/source/stylesheets/all.scss */
+.index img {
+  border-radius: 50%;
+  max-width: 500px;
+  max-height: 500px;
+  margin-bottom: 25px;
+  box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75); }
 
-/* line 69, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 86, /home/chris/Code/antje/source/stylesheets/all.scss */
 .welcome {
   -webkit-animation-name: welcome;
   -webkit-animation-duration: .9s; }

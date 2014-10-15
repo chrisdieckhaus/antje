@@ -1239,11 +1239,11 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #2ba6cb;
+  color: #f5f5f5;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #258faf; }
+    color: #d4d4d4; }
   a img {
     border: none; }
 
