@@ -81,6 +81,24 @@ a:hover{
   
   
 }
+
+.about {
+  
+  p{
+    color: $font-color;
+    font-size: $body-copy-size;
+  }
+  
+  img{
+    border-radius: 50%;
+    max-width: 350px;
+    max-height: 350px;
+    margin-bottom: 25px;
+    box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  }
+  
+  
+}
     
 
 .welcome {
