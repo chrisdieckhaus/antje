@@ -11,11 +11,20 @@ body {
   text-align: center;
   font-family: sans-serif; }
 
-h1 {
-  margin: 0; }
+h1{
+    font-family: 'Euphoria Script', cursive;
+    color: $font-color;
+    font-size: $title-size;
+  }
+
+h1 a:hover{
+  border-bottom: none;
+}
 
 p {
-  font-family: 'Old Standard TT', serif; }
+  font-family: 'Old Standard TT', serif;
+  color: $font-color;
+  font-size: $body-copy-size;}
 
 ul{
   font-family: 'Old Standard TT', serif;
@@ -35,6 +44,11 @@ li{
   padding: 0 20px 0 20px;
 }
 
+a:hover{
+  color: #f5f5f5;
+  border-bottom: dotted 1pt #f5f5f5;
+}
+
 .doc {
   font-size: 14px;
   margin: 0; }
@@ -46,20 +60,23 @@ li{
   position: relative;
   content: "•"; }
 .doc a {
-  color: rgba(0, 0, 0, 0.3); }
+  color: #f5f5f5; }
 .doc a:hover {
-  color: #666; }
+  color: #f5f5f5; }
 
 .index {
-  h1{
-    font-family: 'Euphoria Script', cursive;
-    color: $font-color;
-    font-size: $title-size;
-  }
   
   p{
     color: $font-color;
     font-size: $body-copy-size;
+  }
+  
+  img{
+    border-radius: 50%;
+    max-width: 500px;
+    max-height: 500px;
+    margin-bottom: 25px;
+    box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
   }
   
   
