@@ -1,27 +1,28 @@
 @charset "UTF-8";
 /* line 9, /home/chris/Code/antje/source/stylesheets/all.scss */
 body {
-  background: #244920;
+  background-image: url("../images/bg2.png");
+  background-repeat: repeat-y repeat-x;
   text-align: center;
   font-family: sans-serif; }
 
-/* line 14, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 15, /home/chris/Code/antje/source/stylesheets/all.scss */
 h1 {
   font-family: 'Euphoria Script', cursive;
   color: #f5f5f5;
   font-size: 90px; }
 
-/* line 20, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 21, /home/chris/Code/antje/source/stylesheets/all.scss */
 h1 a:hover {
   border-bottom: none; }
 
-/* line 24, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 25, /home/chris/Code/antje/source/stylesheets/all.scss */
 p {
   font-family: 'Old Standard TT', serif;
   color: #f5f5f5;
   font-size: 20px; }
 
-/* line 29, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 30, /home/chris/Code/antje/source/stylesheets/all.scss */
 ul {
   font-family: 'Old Standard TT', serif;
   color: #f5f5f5;
@@ -34,23 +35,23 @@ ul {
   padding: 50px 0 20px 0;
   border-bottom: dotted #f5f5f5 1pt; }
 
-/* line 41, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 42, /home/chris/Code/antje/source/stylesheets/all.scss */
 li {
   display: inline;
   list-style-type: none;
   padding: 0 20px 0 20px; }
 
-/* line 47, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 48, /home/chris/Code/antje/source/stylesheets/all.scss */
 a:hover {
   color: #f5f5f5;
   border-bottom: dotted 1pt #f5f5f5; }
 
-/* line 52, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 53, /home/chris/Code/antje/source/stylesheets/all.scss */
 .doc {
   font-size: 14px;
   margin: 0; }
 
-/* line 55, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 56, /home/chris/Code/antje/source/stylesheets/all.scss */
 .doc:before,
 .doc:after {
   opacity: .2;
@@ -59,11 +60,11 @@ a:hover {
   position: relative;
   content: "•"; }
 
-/* line 62, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 63, /home/chris/Code/antje/source/stylesheets/all.scss */
 .doc a {
   color: #f5f5f5; }
 
-/* line 64, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 65, /home/chris/Code/antje/source/stylesheets/all.scss */
 .doc a:hover {
   color: #f5f5f5; }
 
@@ -79,7 +80,19 @@ a:hover {
   margin-bottom: 25px;
   box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75); }
 
-/* line 86, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 87, /home/chris/Code/antje/source/stylesheets/all.scss */
+.about p {
+  color: #f5f5f5;
+  font-size: 20px; }
+/* line 92, /home/chris/Code/antje/source/stylesheets/all.scss */
+.about img {
+  border-radius: 50%;
+  max-width: 350px;
+  max-height: 350px;
+  margin-bottom: 25px;
+  box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75); }
+
+/* line 104, /home/chris/Code/antje/source/stylesheets/all.scss */
 .welcome {
   -webkit-animation-name: welcome;
   -webkit-animation-duration: .9s; }
