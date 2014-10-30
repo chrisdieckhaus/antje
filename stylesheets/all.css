@@ -1,30 +1,32 @@
 @charset "UTF-8";
-/* line 9, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 11, /home/chris/Code/antje/source/stylesheets/all.scss */
 body {
   background-image: url("../images/bg2.png");
   background-repeat: repeat-y repeat-x;
   text-align: center;
-  font-family: sans-serif; }
+  font-family: "Old Standard TT", serif;
+  color: #f5f5f5; }
 
-/* line 15, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 19, /home/chris/Code/antje/source/stylesheets/all.scss */
 h1 {
-  font-family: 'Euphoria Script', cursive;
+  font-family: "Euphoria Script", cursive;
   color: #f5f5f5;
   font-size: 90px; }
 
-/* line 21, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 25, /home/chris/Code/antje/source/stylesheets/all.scss */
 h1 a:hover {
   border-bottom: none; }
 
-/* line 25, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 29, /home/chris/Code/antje/source/stylesheets/all.scss */
 p {
-  font-family: 'Old Standard TT', serif;
+  font-family: "Old Standard TT", serif;
   color: #f5f5f5;
+  text-align: justify;
   font-size: 20px; }
 
-/* line 30, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 35, /home/chris/Code/antje/source/stylesheets/all.scss */
 ul {
-  font-family: 'Old Standard TT', serif;
+  font-family: "Old Standard TT", serif;
   color: #f5f5f5;
   font-size: 18px;
   list-style: none;
@@ -35,23 +37,23 @@ ul {
   padding: 50px 0 20px 0;
   border-bottom: dotted #f5f5f5 1pt; }
 
-/* line 42, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 47, /home/chris/Code/antje/source/stylesheets/all.scss */
 li {
   display: inline;
   list-style-type: none;
   padding: 0 20px 0 20px; }
 
-/* line 48, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 53, /home/chris/Code/antje/source/stylesheets/all.scss */
 a:hover {
   color: #f5f5f5;
   border-bottom: dotted 1pt #f5f5f5; }
 
-/* line 53, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 58, /home/chris/Code/antje/source/stylesheets/all.scss */
 .doc {
   font-size: 14px;
   margin: 0; }
 
-/* line 56, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 61, /home/chris/Code/antje/source/stylesheets/all.scss */
 .doc:before,
 .doc:after {
   opacity: .2;
@@ -60,39 +62,44 @@ a:hover {
   position: relative;
   content: "•"; }
 
-/* line 63, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 68, /home/chris/Code/antje/source/stylesheets/all.scss */
 .doc a {
   color: #f5f5f5; }
 
-/* line 65, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 70, /home/chris/Code/antje/source/stylesheets/all.scss */
 .doc a:hover {
   color: #f5f5f5; }
 
-/* line 69, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 74, /home/chris/Code/antje/source/stylesheets/all.scss */
 .index p {
   color: #f5f5f5;
   font-size: 20px; }
-/* line 74, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 78, /home/chris/Code/antje/source/stylesheets/all.scss */
 .index img {
-  border-radius: 50%;
-  max-width: 500px;
-  max-height: 500px;
-  margin-bottom: 25px;
+  border-radius: 2%;
+  margin-bottom: 35px;
   box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75); }
 
-/* line 87, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 86, /home/chris/Code/antje/source/stylesheets/all.scss */
 .about p {
   color: #f5f5f5;
   font-size: 20px; }
-/* line 92, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 90, /home/chris/Code/antje/source/stylesheets/all.scss */
 .about img {
   border-radius: 50%;
   max-width: 350px;
   max-height: 350px;
-  margin-bottom: 25px;
-  box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75); }
+  margin-bottom: 25px; }
 
-/* line 104, /home/chris/Code/antje/source/stylesheets/all.scss */
+/* line 99, /home/chris/Code/antje/source/stylesheets/all.scss */
+.music .button {
+  background: transparent;
+  font-size: 30px; }
+/* line 103, /home/chris/Code/antje/source/stylesheets/all.scss */
+.music .button:hover {
+  border-bottom: dotted #f5f5f5 1pt; }
+
+/* line 109, /home/chris/Code/antje/source/stylesheets/all.scss */
 .welcome {
   -webkit-animation-name: welcome;
   -webkit-animation-duration: .9s; }
